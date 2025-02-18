@@ -10,7 +10,7 @@ import CoreLocationUI
 
 struct WelcomeView: View {
     @EnvironmentObject var locationManager: LocationManager
-    
+
     var body: some View {
         VStack{
             VStack(spacing: 20){
